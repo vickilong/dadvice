@@ -10,8 +10,8 @@ var Vibe = require('ui/vibe');
 var main = new UI.Card({
   title: 'Pebble.js',
   icon: 'images/menu_icon.png',
-  subtitle: 'Hello World!',
-  body: 'Press any button. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+  subtitle: 'Welcome to dadvice',
+  body: 'Press the middle for advice',
   scrollable: true
 });
 
@@ -40,7 +40,7 @@ main.show();
 
 main.on('click', 'select', function(e) {
   var wind = new UI.Card({
-    body: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+    body: 'insert quote here',
     scrollable: true
   });
   wind.show();
