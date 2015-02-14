@@ -6,6 +6,7 @@
 
 var UI = require('ui');
 var Vibe = require('ui/vibe');
+var quotes = ['quote1', 'quote2'];
 
 var main = new UI.Card({
   title: 'Pebble.js',
@@ -40,7 +41,7 @@ main.show();
 
 main.on('click', 'select', function(e) {
   var wind = new UI.Card({
-    body: 'insert quote here',
+    body: quotes[Math.floor( (Math.random() * (quotes.length - 1) ) )],
     scrollable: true
   });
   wind.show();
