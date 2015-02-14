@@ -16,9 +16,16 @@ var main = new UI.Card({
 });
 
 var quote = new UI.Card({
-  body: quotes[Math.floor( (Math.random() * (quotes.length - 1) ) )],
   scrollable: true
 });
+
+quote.body( quotes[Math.floor(Math.random() * quotes.length)] );
+
+var quote2 = new UI.Card({
+  scrollable: true
+});
+
+quote2.body( quotes[Math.floor(Math.random() * quotes.length)] );
 
 main.show();
 
@@ -49,6 +56,13 @@ main.on('click', 'select', function(e) {
 });
 
 quote.on('click', 'select', function(e) {
+  quote2.body( quotes[Math.floor(Math.random() * quotes.length)] );
+  quote2.show();
+  Vibe.vibrate('long');
+});
+
+quote2.on('click', 'select', function(e) {
+  quote.body( quotes[Math.floor(Math.random() * quotes.length)] );
   quote.show();
   Vibe.vibrate('long');
 });
