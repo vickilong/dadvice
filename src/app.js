@@ -6,7 +6,13 @@
 
 var UI = require('ui');
 var Vibe = require('ui/vibe');
-var quotes = ['quote1', 'quote2'];
+var quotes = ['Don\'t date that doctor...he\'s probably taking something for the same thing he treats his patients for.', 
+              'Marry an ugly man. Because if he ever leaves you, at least you won\'t feel bad since, you know, he\'s ugly.',
+              'The ideal man doesn\'t smoke, doesn\'t drink, doesn\'t do drugs, doesn\'t swear, doesn\'t get angry-- doesn\'t exist!',
+              'God gave men both a penis and a brain, but unfortunately not enough blood supply to run both at the same time.',
+              'The correct answer to “Do I look fat?” is never, ever “Yes.”',
+              'Don’t fall in love. Fall off a bridge, it hurts less.',
+              'Only trust people who like big butts... They cannot lie.'];
 
 var main = new UI.Card({
   title: 'Welcome to dadvice.',
