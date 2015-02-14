@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "tovickilong@gmail.com",
-    "longName": "temp",
+    "longName": "dadvice",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -31,7 +31,7 @@
             }
         ]
     },
-    "shortName": "temp",
+    "shortName": "dadvice",
     "uuid": "392a6f22-aed1-46f9-b432-8c262af2dec4",
     "versionCode": 1,
     "versionLabel": "1.0",
