@@ -11,7 +11,6 @@ var quotes = ['quote1', 'quote2'];
 var main = new UI.Card({
   title: 'Welcome to dadvice.',
   icon: 'images/menu_icon.png',
-  subtitle: 'Press the middle for advice.',
   body: 'Press the middle for advice.',
   scrollable: true
 });
