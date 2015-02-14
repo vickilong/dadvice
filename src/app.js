@@ -9,10 +9,10 @@ var Vibe = require('ui/vibe');
 var quotes = ['quote1', 'quote2'];
 
 var main = new UI.Card({
-  title: 'Pebble.js',
+  title: 'Welcome to dadvice.',
   icon: 'images/menu_icon.png',
-  subtitle: 'Welcome to dadvice',
-  body: 'Press the middle for advice',
+  subtitle: 'Press the middle for advice.',
+  body: 'Press the middle for advice.',
   scrollable: true
 });
 
