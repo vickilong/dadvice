@@ -10,12 +10,12 @@ var Vector2 = require('vector2');
 
 var image = new UI.Image({
   position: new Vector2(0, 0),
-  size: new Vector2(144, 144),
-  image: 'images/smallicon2.png'
+  size: new Vector2(144, 132),
+  image: 'images/smallicon.png'
 });
 var text = new UI.Text({
-  position: new Vector2(0, 144),
-  size: new Vector2(144, 10),
+  position: new Vector2(0, 124),
+  size: new Vector2(144, 20),
 });
 
 var quotes = ['Don\'t date that doctor...he\'s probably taking something for the same thing he treats his patients for.', 
@@ -31,12 +31,10 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
               'Put your finger in your partner\'s nose. If it disgusts you, it means you\'re not in love.',
               'Love is like a fart. If you have to force it, it\'s probably crap.',];
 
-var main = new UI.Window({
-  icon: 'images/smallicon2.png',
-  scrollable: true
-});
+var main = new UI.Window();
 
-text.text('Press the middle button for advice.');
+text.text('Press any button.');
+text.textAlign('center');
 main.add(image);
 main.add(text);
 
@@ -76,6 +74,16 @@ main.show();
 // });
 
 main.on('click', 'select', function(e) {
+  quote.show();
+  Vibe.vibrate('long');
+});
+
+main.on('click', 'up', function(e) {
+  quote.show();
+  Vibe.vibrate('long');
+});
+
+main.on('click', 'down', function(e) {
   quote.show();
   Vibe.vibrate('long');
 });

@@ -30,8 +30,8 @@
                 "type": "font"
             },
             {
-                "file": "images/smallicon2.png",
-                "name": "IMAGES_SMALLICON2_PNG",
+                "file": "images/smallicon.png",
+                "name": "IMAGES_SMALLICON_PNG",
                 "type": "png"
             }
         ]
