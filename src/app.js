@@ -32,7 +32,13 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
               'Love is like a fart. If you have to force it, it\'s probably crap.',
               'We have reason to believe that man first walked upright to free his hands for masturbation.',
               'Sex is like air; it\'s not important unless you aren\'t getting any.',
-              'If you\'re nauseous and tingly all over, you are either in love or have smallpox.',];
+              'If you\'re nauseous and tingly all over, you are either in love or have smallpox.',
+              'She said she wanted a separation. I was horrified, and I said, ‘You want me to wear a condom!',
+              'My wife and I were happy for 20 years - then we met.',
+              'Women don’t want to hear what you think. Women want to hear what they think— in a deeper voice.',
+              'Sex without love is a meaningless experience, but as far as meaningless experiences go its pretty damn good.',
+              'Sex and murder are the same. Well, you say the same after both don’t you? ‘Damn I got to get the hell out of here! What was I thinking!',
+              'I believe that sex is a beautiful thing between two people. Between five, it’s fantastic.',];
 
 var main = new UI.Window();
 
