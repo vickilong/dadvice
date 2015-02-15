@@ -28,6 +28,11 @@
                 "file": "fonts/UbuntuMono-Regular.ttf",
                 "name": "MONO_FONT_14",
                 "type": "font"
+            },
+            {
+                "file": "images/dadvice.png",
+                "name": "IMAGES_DADVICE_PNG",
+                "type": "png"
             }
         ]
     },
