@@ -33,11 +33,10 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
 
 var main = new UI.Window({
   icon: 'images/smallicon2.png',
-  body: 'Press the middle for advice.',
   scrollable: true
 });
 
-text.text('Welcome to dadvice');
+text.text('Press the middle button for advice.');
 main.add(image);
 main.add(text);
 
