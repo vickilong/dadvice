@@ -29,7 +29,9 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
               'Admit when you\'re wrong, shut up when you’re right.',
               'Don\'t marry someone you don’t want your children to be.',
               'Put your finger in your partner\'s nose. If it disgusts you, it means you\'re not in love.',
-              'Love is like a fart. If you have to force it, it\'s probably crap.'];
+              'Love is like a fart. If you have to force it, it\'s probably crap.',
+              'We have reason to believe that man first walked upright to free his hands for masturbation.',
+              'Sex is like air; it\'s not important unless you aren\'t getting any.'];
 
 var main = new UI.Window();
 
