@@ -12,7 +12,12 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
               'God gave men both a penis and a brain, but unfortunately not enough blood supply to run both at the same time.',
               'The correct answer to “Do I look fat?” is never, ever “Yes.”',
               'Don’t fall in love. Fall off a bridge, it hurts less.',
-              'Only trust people who like big butts... They cannot lie.'];
+              'Only trust people who like big butts... They cannot lie.',
+              'Never hold a grudge. Hold a hammer. It\'s a lot more intimidating.',
+              'Admit when you\'re wrong, shut up when you’re right.',
+              'Don\'t marry someone you don’t want your children to be.',
+             'Put your finger in your partner\'s nose. If it disgusts you, it means you\'re not in love.',
+             'Love is like a fart. If you have to force it, it\'s probably crap.',];
 
 var main = new UI.Card({
   title: 'Welcome to dadvice.',
