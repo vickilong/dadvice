@@ -76,11 +76,19 @@ main.on('click', 'down', function(e) {
   Vibe.vibrate('long');
 });
 
+while (quote.body == quote2.body) {
+  quote2.body( quotes[Math.floor(Math.random() * quotes.length)] );
+}
+
 quote.on('click', 'select', function(e) {
   quote2.body( quotes[Math.floor(Math.random() * quotes.length)] );
   quote2.show();
   Vibe.vibrate('long');
 });
+
+while (quote2.body == quote.body) {
+  quote.body( quotes[Math.floor(Math.random() * quotes.length)] );
+}
 
 quote2.on('click', 'select', function(e) {
   quote.body( quotes[Math.floor(Math.random() * quotes.length)] );
