@@ -6,6 +6,18 @@
 
 var UI = require('ui');
 var Vibe = require('ui/vibe');
+var Vector2 = require('vector2');
+
+var image = new UI.Image({
+  position: new Vector2(0, 0),
+  size: new Vector2(144, 144),
+  image: 'images/smallicon2.png'
+});
+var text = new UI.Text({
+  position: new Vector2(0, 144),
+  size: new Vector2(144, 10),
+});
+
 var quotes = ['Don\'t date that doctor...he\'s probably taking something for the same thing he treats his patients for.', 
               'Marry an ugly man. Because if he ever leaves you, at least you won\'t feel bad since, you know, he\'s ugly.',
               'The ideal man doesn\'t smoke, doesn\'t drink, doesn\'t do drugs, doesn\'t swear, doesn\'t get angry-- doesn\'t exist!',
@@ -19,12 +31,15 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
               'Put your finger in your partner\'s nose. If it disgusts you, it means you\'re not in love.',
               'Love is like a fart. If you have to force it, it\'s probably crap.',];
 
-var main = new UI.Card({
-  title: 'Welcome to dadvice.',
-  icon: 'images/menu_icon.png',
+var main = new UI.Window({
+  icon: 'images/smallicon2.png',
   body: 'Press the middle for advice.',
   scrollable: true
 });
+
+text.text('Welcome to dadvice');
+main.add(image);
+main.add(text);
 
 var quote = new UI.Card({
   scrollable: true

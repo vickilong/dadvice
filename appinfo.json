@@ -30,8 +30,8 @@
                 "type": "font"
             },
             {
-                "file": "images/dadvice.png",
-                "name": "IMAGES_DADVICE_PNG",
+                "file": "images/smallicon2.png",
+                "name": "IMAGES_SMALLICON2_PNG",
                 "type": "png"
             }
         ]
