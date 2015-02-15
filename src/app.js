@@ -29,7 +29,7 @@ var quotes = ['Don\'t date that doctor...he\'s probably taking something for the
               'Admit when you\'re wrong, shut up when you’re right.',
               'Don\'t marry someone you don’t want your children to be.',
               'Put your finger in your partner\'s nose. If it disgusts you, it means you\'re not in love.',
-              'Love is like a fart. If you have to force it, it\'s probably crap.',];
+              'Love is like a fart. If you have to force it, it\'s probably crap.'];
 
 var main = new UI.Window();
 
